@@ -1,0 +1,13 @@
+.cyborg-navbar{
+    min-height: 100px;
+}
+
+form .secondary-btn{
+    margin-top: 6px;
+}
+
+form .button a {
+    font-size: 14px;
+    border-radius: calc(var(--border-radius-primary)/4);
+    padding: 8px 20px;
+}

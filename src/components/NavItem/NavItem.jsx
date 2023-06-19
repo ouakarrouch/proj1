@@ -1,4 +1,3 @@
-import './NavItem.css';
 
 const NavItem = (props) => {
   return (
@@ -7,7 +6,6 @@ const NavItem = (props) => {
       </li>    
   )
 }
-
 const NavItemDropDown = (props) => {
     return (
      <li className='nav-item dropdown'>
@@ -15,8 +13,5 @@ const NavItemDropDown = (props) => {
          </li>    
     )
   }
-  
-  
-
 export default NavItem
 export {NavItemDropDown}
