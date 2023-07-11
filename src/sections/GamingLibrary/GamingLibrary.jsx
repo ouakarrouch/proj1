@@ -1,5 +1,5 @@
 import './GamingLibrary.css'
-import { GamingLibraryCard, SectionHeader, SectionWrapper} from '../../components'
+import { GamingLibraryCard, PrimaryButton, SectionHeader, SectionWrapper} from '../../components'
 
 import GamingLibraryData from '../../Data/GamingLabraryData'
 
@@ -10,11 +10,12 @@ const GamingLibrary = () => {
     <>
     <SectionWrapper>
        <SectionHeader>
-            Most Popular
+       Your Most Popular Clips
        </SectionHeader>
         <div className="gaming-library-cards">
             {cards}
         </div>
+      
     </ SectionWrapper>
 </>
   )

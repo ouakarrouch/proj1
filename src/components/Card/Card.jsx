@@ -17,12 +17,12 @@ const Card = (props) => {
                 <div className='most-popular-content'>
                 <h4 className='most-popular-title'>
             {props.title} <br />
-            <span>{props.category}</span>
+            <span>{props.category}</span> </h4>
             <ul>
                 <li><FaStar /><span>{props.rate}</span></li>
                 <li><span>{props.download}</span></li>
             </ul>
-        </h4>
+       
        
     </div>
 </div>

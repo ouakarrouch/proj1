@@ -1,0 +1,73 @@
+.DetailsInfoleft {
+    float: left;
+}
+.DetailsInfoleft h4 {
+    font-size: 15px;
+    display: block;
+}
+.DetailsInfoleft span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}
+.DetailsInfo ul.icons {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.DetailsInfo ul.icons li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.dataicons{
+    margin: 0;
+}
+.dataicons li {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.dataicons svg {
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+    
+}
+
+
+.image_detail img{
+    border-radius: var(--border-radius-primary);
+    margin-bottom: 30px;
+}
+
+.text-details p {
+    font-size: 15px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.button-details{
+    margin-top: 35px;
+    width: 100%;
+}
+.button-details a{
+    text-align: center;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lg-12 {
+ text-align: center;
+ padding: 15px;
+
+
+}

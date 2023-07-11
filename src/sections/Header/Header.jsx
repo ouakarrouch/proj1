@@ -22,13 +22,13 @@ const Header = () => {
           <a className="nav-link" href="/">Home</a>
           </Navitem>
           <Navitem>
-            <a className="nav-link" href="/#">Browse</a>
+            <a className="nav-link" href="/Browser">Browse</a>
           </Navitem>
           <Navitem>
-            <a className="nav-link" href="/#">Details</a>
+            <a className="nav-link" href="/Detail">Details</a>
           </Navitem>
           <Navitem>
-          <a className="nav-link" href="/#">Streams</a>
+          <a className="nav-link" href="/Stream">Streams</a>
         </Navitem>
         <Navitem>
         <a className="nav-link" href="/Profile">profile</a>

@@ -1,11 +1,17 @@
 import './Profile.css'
-import {  MostPopular} from '../../sections/index';
+import {  MostPopular2 ,GamingLibrary, MostPopular1} from '../../sections/index';
 
 const Profile = () => {
   return (
     <>
         <h2 style={{color:"white", fontWeight :"bold" , textAlign:"center"}}>profile page</h2>
-        <MostPopular />
+        
+        <MostPopular2 />
+
+        <MostPopular1 />
+        
+        <GamingLibrary />
+        
     </>
   )
 }
